@@ -8,7 +8,7 @@ module.exports = {
         filename: 'static/chunks/remoteEntry.js',
         exposes: {}, 
         remotes: {
-          header_app: 'header_app@http://localhost:3001/_next/static/chunks/remoteEntry.js',
+          header_app: 'header_app@https://mf-ssr-header.onrender.com/_next/static/chunks/remoteEntry.js',
         },
       shared: {
   react: {
