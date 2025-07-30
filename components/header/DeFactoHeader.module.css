@@ -1,0 +1,140 @@
+
+.dfHeader {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: white;
+    height: 90px;
+  }
+  .dfMainBar {
+    padding-top: 15px !important;
+  }
+  .dfTopBar {
+    display: flex;
+    justify-content: end;
+    padding: 5px 20px;
+    font-size: 14px;
+
+  }
+  .dfTopBar  span {
+    font-size: 10px;
+    font-weight: 400;
+    transition: all .3s ease;
+    color: #47464c;
+  }
+  .dfTopBar  span:last-child {
+  margin-right: 3px;
+  }
+  .dfTopBar  span::after {
+    content: "|";
+    padding: 0 8px;
+  }
+  .dfTopBar span:last-child:after {
+    content: "";
+  }
+
+  .dfTsRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .df-ts-left a,
+  .dfTsRight a {
+    margin: 0 8px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 12px;
+  }
+  .dfTsRight a:last-child {
+    margin-right: unset;
+  }
+  .dfTsRight svg {
+  margin-right: 10px;
+  }
+  .dfMainBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+  }
+  .dfLogo img {
+    height: 28px;
+    width: 135px;
+  }
+  .dfNav {
+    display: flex;
+    font-size: 12px;
+  }
+  .dfNav a {
+    display: flex;
+    align-items: center;
+    color: #4d4a58;
+    margin: 0 16px;
+    justify-content: center;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .dfSearch {
+    display: flex;
+    align-items: center;
+  }
+  .dfSearch input {
+    padding: 16px 10px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 460px;
+    background-color: #f8f8f9;
+    border: unset;
+    height: 24px;
+  }
+  .dfSearch button {
+    padding: 6px 12px;
+    border-left: none;
+    background: #eee;
+    cursor: pointer;
+  }
+  
+  .dfSearch svg {
+  position: absolute;
+margin-left: 10px;
+color: #908e97;
+}
+
+
+.dfSearch input::placeholder{
+  padding-left: 30px;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.miniBasketCount {
+  position: relative;
+  top: -14px;
+  left: -57px;
+  display: block !important;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #22242a;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.9;
+}
