@@ -10,7 +10,7 @@
   }
   .dfTopBar {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 5px 20px;
     font-size: 14px;
 
